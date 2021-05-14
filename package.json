@@ -1,0 +1,30 @@
+{
+  "name": "mailkeo-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musicbyrhyo/mailkeo-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musicbyrhyo/mailkeo-mongo/issues"
+  },
+  "homepage": "https://github.com/musicbyrhyo/mailkeo-mongo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.8",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.7"
+  }
+}
