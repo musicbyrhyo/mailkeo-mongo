@@ -18,7 +18,7 @@ const configure = async (req,res) => {
     // check if user with same email exists
     const user = await User.findOneAndUpdate({_id: req.user._id},{$set: {mail_server: mail_server}})
 
-    console.log(user);
+    if(!user) return res.status(401).send('Invalid log in')
 
     res.status(200).send('Successfully configured')
 

@@ -14,6 +14,11 @@ const CampaignSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    c_subject: {
+        type: String,
+        required: true
+    },
+    c_complete: Boolean,
     c_date: Date,
     c_audience: {
         type: String,
